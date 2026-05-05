@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lander Joe Carangcarang — Portfolio</title>
+<meta name="description" content="Cyberpunk anime-inspired portfolio of Lander Joe P. Carangcarang, BSIT Multimedia Arts & Animation student at UDD." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo gradient-neon-text">&lt;My_Portfolio&gt;</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" data-link="home">HOME</a></li>
+      <li><a href="#about" data-link="about">ABOUT</a></li>
+      <li><a href="#skills" data-link="skills">SKILLS</a></li>
+      <li><a href="#experience" data-link="experience">EXP</a></li>
+      <li><a href="#progress" data-link="progress">PROGRESS</a></li>
+      <li><a href="#interests" data-link="interests">INTERESTS</a></li>
+      <li><a href="#contact" data-link="contact">CONTACT</a></li>
+    </ul>
+    <button id="menuBtn" class="menu-btn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#experience">EXP</a>
+    <a href="#progress">PROGRESS</a>
+    <a href="#interests">INTERESTS</a>
+    <a href="#contact">CONTACT</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-bg">
+    <img src="assets/hero-bg.jpg" alt="Cyberpunk city" />
+    <div class="hero-overlay"></div>
+    <div class="grid-bg"></div>
+  </div>
+
+  <div class="container hero-grid">
+    <div class="hero-portrait-wrap">
+      <div class="portrait float">
+        <div class="ring spin-slow">
+          <div class="ring-dash"></div>
+          <div class="ring-dot pink"></div>
+          <div class="ring-dot cyan"></div>
+        </div>
+        <div class="ring-glow neon-pulse"></div>
+        <div class="portrait-img">
+          <img src="assets/profile.jpg" alt="Lander Joe Carangcarang" />
+          <div class="portrait-tint"></div>
+        </div>
+        <div class="bracket tl"></div>
+        <div class="bracket tr"></div>
+        <div class="bracket bl"></div>
+        <div class="bracket br"></div>
+      </div>
+    </div>
+
+    <div class="hero-text fade-up">
+      <p class="kicker">// SYSTEM ONLINE_</p>
+      <h1 class="hero-title">
+        <span>LANDER JOE</span>
+        <span class="gradient-neon-text">CARANGCARANG</span>
+      </h1>
+      <div class="divider-grad"></div>
+      <p class="role text-neon-pink">ASPIRING MULTIMEDIA ARTIST</p>
+      <p class="role-sub">// WEB &amp; GAME DEVELOPMENT LEARNER</p>
+      <p class="hero-desc">
+        BSIT student in <span class="text-neon-cyan">Multimedia Arts &amp; Animation</span> at UdD —
+        crafting digital experiences where code meets creativity.
+      </p>
+      <div class="cta-row">
+        <a href="#progress" class="btn neon-border-pink glitch">Current Progress</a>
+        <a href="#contact" class="btn neon-border-cyan glitch">CONNECT</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <span>SCROLL</span>
+    <div class="scroll-bar"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="kicker">// 01 —</p>
+      <h2 class="gradient-neon-text">ABOUT.ME</h2>
+      <p class="subtitle">A creative dev-in-training blending pixels, code, and imagination.</p>
+      <div class="heading-divider"></div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="lead">Hey — I'm <span class="text-neon-pink">Lander Joe</span>, a college student passionate about building things that look as cool as they feel.</p>
+        <p class="muted">I'm exploring the worlds of <span class="text-neon-cyan">web development</span>, <span class="text-neon-purple">multimedia arts</span>, and <span class="text-neon-pink">game development</span> — picking up new tools, breaking things, fixing them, and (mostly) learning along the way.</p>
+        <p class="muted">When I'm not coding, you'll find me lost in an MMORPG, theory-crafting strategy builds, or absorbing inspiration from anime visuals.</p>
+        <div class="tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          <span class="tag">Pygame</span><span class="tag">Multimedia</span>
+        </div>
+      </div>
+
+      <div class="about-cards">
+        <div class="card glass-panel" style="--c:var(--neon-cyan)">
+          <div class="card-icon">🎓</div>
+          <h3>STUDENT</h3>
+          <p>BSIT — Multimedia Arts & Animation at UDD. Always learning, always leveling up.</p>
+        </div>
+        <div class="card glass-panel" style="--c:var(--neon-pink)">
+          <div class="card-icon">⌨️</div>
+          <h3>DEVELOPER</h3>
+          <p>Diving into HTML, CSS, JavaScript and exploring the web's creative side.</p>
+        </div>
+        <div class="card glass-panel" style="--c:var(--neon-purple)">
+          <div class="card-icon">🎮</div>
+          <h3>GAMER / DEV</h3>
+          <p>Building games with Pygame. Loves turn-based, MMORPG, open world & strategy titles.</p>
+        </div>
+        <div class="card glass-panel" style="--c:var(--neon-blue)">
+          <div class="card-icon">✨</div>
+          <h3>ANIME SOUL</h3>
+          <p>Inspired by anime aesthetics, storytelling, and the art of imagination.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="grid-bg overlay-faint"></div>
+  <div class="container">
+    <div class="section-heading">
+      <p class="kicker">// 02 —</p>
+      <h2 class="gradient-neon-text">CORE SKILLS</h2>
+      <p class="subtitle">The stats that power the player.</p>
+      <div class="heading-divider"></div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill glass-panel" style="--c:var(--neon-cyan)">
+        <div class="skill-head"><span class="skill-name">🧠 PROBLEM SOLVING</span><span class="lvl">LV.53</span></div>
+        <div class="bar"><div class="bar-fill" style="width:53%"></div></div>
+      </div>
+      <div class="skill glass-panel" style="--c:var(--neon-pink)">
+        <div class="skill-head"><span class="skill-name">💡 IMAGINATIVE THINKING</span><span class="lvl">LV.52</span></div>
+        <div class="bar"><div class="bar-fill" style="width:52%"></div></div>
+      </div>
+      <div class="skill glass-panel" style="--c:var(--neon-purple)">
+        <div class="skill-head"><span class="skill-name">⚖️ MORAL REASONING</span><span class="lvl">LV.45</span></div>
+        <div class="bar"><div class="bar-fill" style="width:45%"></div></div>
+      </div>
+      <div class="skill glass-panel" style="--c:var(--neon-blue)">
+        <div class="skill-head"><span class="skill-name">👥 SOCIAL SKILLS</span><span class="lvl">LV.60</span></div>
+        <div class="bar"><div class="bar-fill" style="width:60%"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="kicker">// 03 —</p>
+      <h2 class="gradient-neon-text">LOG // EXPERIENCE</h2>
+      <p class="subtitle">Quests completed in the real world.</p>
+      <div class="heading-divider"></div>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-line"></div>
+      <div class="tl-item" style="--c:var(--neon-pink)">
+        <div class="tl-node"></div>
+        <div class="tl-card glass-panel">
+          <div class="tl-icon">📷</div>
+          <h3>Photo Shoots</h3>
+          <p class="tl-role">// Photographer Assistant</p>
+          <p>Captured moments and assisted in styling, lighting, and post-shoot work.</p>
+        </div>
+      </div>
+      <div class="tl-item right" style="--c:var(--neon-purple)">
+        <div class="tl-node"></div>
+        <div class="tl-card glass-panel">
+          <div class="tl-icon">💜</div>
+          <h3>Wedding Videography</h3>
+          <p class="tl-role">// Videographer Assist</p>
+          <p>Helped document weddings — from prep to reception, frame by frame.</p>
+        </div>
+      </div>
+      <div class="tl-item" style="--c:var(--neon-cyan)">
+        <div class="tl-node"></div>
+        <div class="tl-card glass-panel">
+          <div class="tl-icon">✅</div>
+          <h3>Personal Assistant</h3>
+          <p class="tl-role">// Support Roles</p>
+          <p>Multi-tasked across scheduling, errands, and on-site coordination.</p>
+        </div>
+      </div>
+      <div class="tl-item right" style="--c:var(--neon-blue)">
+        <div class="tl-node"></div>
+        <div class="tl-card glass-panel">
+          <div class="tl-icon">🎥</div>
+          <h3>Occasional Videography</h3>
+          <p class="tl-role">// Freelance Shoots</p>
+          <p>Took on small video gigs — events, content, and creative projects.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="progress" class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="kicker">// 04 —</p>
+      <h2 class="gradient-neon-text">PROGRESS</h2>
+      <p class="subtitle">The build queue is loading…</p>
+      <div class="heading-divider"></div>
+    </div>
+
+    <div class="progress-card glass-panel">
+      <div class="grid-bg overlay-faint"></div>
+      <div class="orb"></div>
+      <div class="prog-inner">
+        <div class="prog-icon">🖥️</div>
+        <p class="kicker">// STATUS: STUDYING_</p>
+        <h3 class="gradient-neon-text">Career Path: In Development<span class="dot"></span></h3>
+        <p class="muted">Currently studying the ways of multimedia and sharpening skills in web development and game development. The first builds are loading from the void.</p>
+        <div class="loading-wrap">
+          <div class="loading-head"><span>LOADING<span class="dots"></span></span><span class="text-neon-pink">42%</span></div>
+          <div class="bar"><div class="bar-fill" style="width:42%;background:linear-gradient(90deg,var(--neon-cyan),var(--neon-pink))"></div></div>
+        </div>
+        <div class="tags center">
+          <span class="tag purple">WEB DEV</span>
+          <span class="tag purple">PYGAME</span>
+          <span class="tag purple">MULTIMEDIA</span>
+          <span class="tag purple">ANIMATION</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERESTS -->
+<section id="interests" class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="kicker">// 04 —</p>
+      <h2 class="gradient-neon-text">INTERESTS</h2>
+      <p class="subtitle">Worlds I explore when I'm off the clock — quests, stories, and side-scrolls.</p>
+      <div class="heading-divider"></div>
+    </div>
+
+    <div class="interests-grid">
+      <div class="int-card glass-panel" style="--c:var(--neon-cyan)">
+        <h3>🎮 FAVORITE GAMES</h3>
+        <ul>
+          <li><span>▸</span> Honkai: Star Rail</li>
+          <li><span>▸</span> Genshin Impact</li>
+          <li><span>▸</span> Wild Rift</li>
+          <li><span>▸</span> Neverness to Everness</li>
+        </ul>
+      </div>
+      <div class="int-card glass-panel" style="--c:var(--neon-pink)">
+        <h3>📺 ANIME / MOVIES</h3>
+        <ul>
+          <li><span>▸</span> Fragrant Flower Blooms with Dignity</li>
+          <li><span>▸</span> Apocalypse Bringer Mynoghra</li>
+          <li><span>▸</span> One Piece</li>
+          <li><span>▸</span> Cyberpunk: Edgerunners</li>
+          <li><span>▸</span> League of Legends: Arcane</li>
+          <li><span>▸</span> Alice in Borderland</li>
+          <li><span>▸</span> The Walking Dead</li>
+          <li><span>▸</span> Game of Thrones</li>
+        </ul>
+      </div>
+      <div class="int-card glass-panel" style="--c:var(--neon-purple)">
+        <h3>⌨️ HOBBIES</h3>
+        <ul>
+          <li><span>▸</span> Gaming</li>
+          <li><span>▸</span> Watching Anime &amp; Movies</li>
+          <li><span>▸</span> Practicing Coding</li>
+          <li><span>▸</span> Photography</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="kicker">// 05 —</p>
+      <h2 class="gradient-neon-text">ESTABLISH LINK</h2>
+      <p class="subtitle">Here are my conacts — let's build something.</p>
+      <div class="heading-divider"></div>
+    </div>
+
+    <div class="contact-list">
+      <a href="https://www.facebook.com/lander.joe.3" class="contact glass-panel" style="--c:var(--neon-blue)">
+        <div class="c-icon"><i class="fa-brands fa-facebook"></i></div><div class="c-label">FACEBOOK</div><span class="arrow">→</span>
+      </a>
+      <a href="https://www.instagram.com/lander.joe.06/" class="contact glass-panel" style="--c:var(--neon-pink)">
+        <div class="c-icon"><i class="fa-brands fa-instagram"></i></div><div class="c-label">INSTAGRAM</div><span class="arrow">→</span>
+      </a>
+      <a href="https://github.com/landerjoecarangcarang" class="contact glass-panel" style="--c:var(--neon-purple)">
+        <div class="c-icon"><i class="fa-brands fa-github"></i></div><div class="c-label">GITHUB</div><span class="arrow">→</span>
+      </a>
+      <a href="tel:099117370596" class="contact glass-panel" style="--c:var(--neon-cyan)">
+        <div class="c-icon"><i class="fa-solid fa-phone"></i></div><div class="c-label">099117370596</div><span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> LANDER JOE P. CARANGCARANG</p>
+    <p class="gradient-neon-text">// POWERED BY CAFFEINE &amp; STING_</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
